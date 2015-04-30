@@ -1,0 +1,3 @@
+GROUP-NAME:Default Group
+PAIR-NAME:Pair 9
+GET /path/id-16305/{resource}
