@@ -1,5 +1,0 @@
-GROUP-NAME:Default Group
-PAIR-NAME:Pair 1
-GET /path/resource/{THING}
-Content-Type:application/json;charset=UTF8
-
