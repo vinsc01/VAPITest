@@ -1,0 +1,4 @@
+GROUP-NAME:/greetings/hello/{subject}
+PAIR-NAME:pair-0 GET /greetings/hello/{subject}
+GET /greetings/hello/{subject} 
+
