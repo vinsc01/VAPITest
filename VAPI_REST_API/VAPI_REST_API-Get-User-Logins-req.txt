@@ -1,0 +1,6 @@
+GROUP-NAME:Default Group
+PAIR-NAME:Get User Logins
+GET /users?q=(loginDays=10)
+X-VAPI-AuthAuthority: GitHub
+X-VAPI-AccessToken: {{token}}
+
