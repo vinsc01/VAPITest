@@ -1,0 +1,6 @@
+GROUP-NAME:Default Group
+PAIR-NAME:GitHub Repos
+GET /githubUsers/{{username}}/repos
+X-VAPI-AuthAuthority: GitHub
+X-VAPI-AccessToken: {{token}}
+
