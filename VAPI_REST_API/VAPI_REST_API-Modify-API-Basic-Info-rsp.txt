@@ -1,0 +1,19 @@
+200
+
+{
+    "message": "OK",
+    "returnCode": 200,
+    "success": true,
+    "api": {
+        "id": "38f3cd50-0925-11e5-81e0-290ec28afe9b",
+        "name": "Api1",
+        "description": "This is an example description.",
+        "iconSet": "ca",
+        "iconColour": "all",
+        "iconName": "example",
+        "redeploy": false,
+        "status": "enabled",
+        "uri": "http://vinsc01.ca.com:8080/api/vinsc01/Api1",
+        "ispublic": "true"
+    }
+}
