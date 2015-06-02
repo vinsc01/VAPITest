@@ -1,0 +1,62 @@
+200
+
+{
+    "message": "success",
+    "returnCode": 0,
+    "success": true,
+    "totalApis": 4,
+    "apigridInfo": [
+        {
+            "creator": "vinsc01",
+            "avatar": "https://avatars.githubusercontent.com/u/7148237?v=3",
+            "name": "Spec_Content_API",
+            "status": "failed",
+            "modified": "2015-06-01 16:50:35",
+            "callCount": 0,
+            "uri": "http://vinsc01.ca.com:8080/api/vinsc01/Spec_Content_API",
+            "description": "This is a short description.",
+            "iconSet": "ca",
+            "iconColour": "all",
+            "iconName": "example"
+        },
+        {
+            "creator": "vinsc01",
+            "avatar": "https://avatars.githubusercontent.com/u/7148237?v=3",
+            "name": "SampleApi",
+            "status": "enabled",
+            "modified": "2015-06-02 08:50:46",
+            "callCount": 23,
+            "uri": "http://vinsc01.ca.com:8080/api/vinsc01/SampleApi",
+            "description": "This is a short description.",
+            "iconSet": "ca",
+            "iconColour": "all",
+            "iconName": "example"
+        },
+        {
+            "creator": "vinsc01",
+            "avatar": "https://avatars.githubusercontent.com/u/7148237?v=3",
+            "name": "VAPI_REST_API",
+            "status": "enabled",
+            "modified": "2015-06-02 11:14:08",
+            "callCount": 0,
+            "uri": "http://vinsc01.ca.com:8080/api/vinsc01/VAPI_REST_API",
+            "description": "Imported from Postman.",
+            "iconSet": "ca",
+            "iconColour": "all",
+            "iconName": "example"
+        },
+        {
+            "creator": "vinsc01",
+            "avatar": "https://avatars.githubusercontent.com/u/7148237?v=3",
+            "name": "Api1",
+            "status": "enabled",
+            "modified": "2015-06-02 11:29:27",
+            "callCount": 0,
+            "uri": "http://vinsc01.ca.com:8080/api/vinsc01/Api1",
+            "description": "This is a short description.",
+            "iconSet": "ca",
+            "iconColour": "all",
+            "iconName": "example"
+        }
+    ]
+}
