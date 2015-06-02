@@ -1,0 +1,35 @@
+GROUP-NAME:Default Group
+PAIR-NAME:Create API
+POST /users/{{username}}/apis
+X-VAPI-AuthAuthority: GitHub
+X-VAPI-AccessToken: {{token}}
+Content-Type: application/json
+
+{
+    "user": "{{username}}",
+    "api": {
+        "id": "",
+        "name": "{{apiname}}",
+        "description": "This is a short description.",
+        "iconSet": "ca",
+        "iconColour": "all",
+        "iconName": "example",
+        "type": 1,
+        "type_name": "REST",
+        "methods": [
+            {
+                "name": "Default Group",
+                "pairs": [
+                    {
+                        "id": "new-5c290649-f3ff-11e4-945b-0d29ebfdda67",
+                        "pairName": "Pair 1",
+                        "name": "Default Group",
+                        "request": "GET /path/resource/{THING}\nContent-Type:application/json;charset=UTF8\n\n",
+                        "response": "200\n\n{\n   \"first-name\": \"{{=[:First Name:]}}\",\n   \"last-name\": \"{{=[:Last Name:]}}\",\n   \"city\": \"{{=[:City:]}}\",\n   \"thing\": \"{THING}\"\n}"
+                    }
+                ]
+            }
+        ],
+        "documentation":"This is some documentation."
+    }
+}
