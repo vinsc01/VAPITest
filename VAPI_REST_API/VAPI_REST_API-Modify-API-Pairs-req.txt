@@ -1,0 +1,29 @@
+GROUP-NAME:Default Group
+PAIR-NAME:Modify API Pairs
+PUT /users/{{username}}/apis/{{apiname}}/pairs
+X-VAPI-AuthAuthority: GitHub
+X-VAPI-AccessToken: {{token}}
+Content-Type: application/json
+
+{
+    "methods": [
+        {
+            "name": "Default Group",
+            "pairs": [
+                {
+                    "id":"5c290649-f3ff-11e4-945b-0d29ebfdda67",
+                    "pairName": "Pair 1",
+                    "name": "Default Group",
+                    "request": "GET /path/resource/{THING}\nContent-Type:application/json;charset=UTF8\n\n",
+                    "response": "200\n\n{\n   \"first-name\": \"{{=[:First Name:]}}\",\n   \"last-name\": \"{{=[:Last Name:]}}\",\n   \"city\": \"{{=[:City:]}}\",\n   \"thing\": \"{THING}\"\n}"
+                },
+                {
+                    "pairName": "Pair 2",
+                    "id": "3ffacab4-f4a1-11e4-977c-fb897cc38813",
+                    "name": "Default Group",
+                    "type": -1
+                }
+            ]
+        }
+    ]
+}
