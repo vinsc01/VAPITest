@@ -1,0 +1,10 @@
+GROUP-NAME:Default Group
+PAIR-NAME:Modify API Documentation
+PUT /users/{{username}}/apis/{{apiname}}/doc
+X-VAPI-AuthAuthority: GitHub
+X-VAPI-AccessToken: {{token}}
+Content-Type: application/json
+
+{
+    "docText": "<p>This is some example documentation.</p>"
+}
