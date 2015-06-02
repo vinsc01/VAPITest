@@ -1,0 +1,45 @@
+200
+
+{
+    "message": "success",
+    "returnCode": 0,
+    "success": true,
+    "tree": [
+        {
+            "label": "VAPI_REST_API",
+            "path": "VAPI_REST_API",
+            "level": 1,
+            "leaf": false,
+            "children": []
+        },
+        {
+            "label": "myFolder",
+            "path": "myFolder",
+            "level": 1,
+            "leaf": false,
+            "children": [
+                {
+                    "label": "folder1",
+                    "path": "myFolder/folder1",
+                    "level": 2,
+                    "leaf": false,
+                    "children": []
+                },
+                {
+                    "label": "folder2",
+                    "path": "myFolder/folder2",
+                    "level": 2,
+                    "leaf": false,
+                    "children": []
+                },
+                {
+                    "label": "folder3",
+                    "path": "myFolder/folder3",
+                    "level": 2,
+                    "leaf": false,
+                    "children": []
+                }
+            ]
+        }
+    ]
+}
