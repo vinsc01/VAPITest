@@ -1,0 +1,8 @@
+GROUP-NAME:Default Group
+PAIR-NAME:Try It Now
+POST /api/{{apiId}}
+X-VAPI-AuthAuthority: GitHub
+X-VAPI-AccessToken: {{token}}
+
+GET /greetings/hello/Bob
+:
