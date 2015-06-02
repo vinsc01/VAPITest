@@ -1,0 +1,7 @@
+GROUP-NAME:Default Group
+PAIR-NAME:Get API Pairs
+GET /users/{{username}}/apis/{{apiname}}/pairs
+X-VAPI-AuthAuthority: GitHub
+X-VAPI-AccessToken: {{token}}
+Content-Type: application/json
+
