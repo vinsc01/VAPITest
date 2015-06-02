@@ -1,0 +1,14 @@
+GROUP-NAME:Default Group
+PAIR-NAME:Export API to GitHub
+POST /users/{{username}}/apis/{{apiname}}/export
+X-VAPI-AuthAuthority: GitHub
+X-VAPI-AccessToken: {{token}}
+Content-Type: application/json
+
+{
+    "github": {
+        "user": "{{username}}",
+        "repo": "{{repoName}}",
+        "path": "myFolder/folder3"
+    }
+}
