@@ -1,3 +1,0 @@
-200
-
-{"success":true,"message":"success","detailedMessage":null,"returnCode":0,"doc":null,"methods":[{"name":"Default Group","pairs":[{"pairName":"Pair 1","name":"Default Group","id":"468a2590-0876-11e5-99da-290ec28afe9b","request":"GET /path/id-15983/{resource}\n","response":"200\n\n{\n   \"response\": \"{resource}\",\n   \"id\": \"15983\"\n}\n","type":1,"type_name":"REST"},{"pairName":"Pair 5","name":"Default Group","id":"47177170-0876-11e5-99da-290ec28afe9b","request":"GET /path/id-15983/{resource}\n","response":"200\n\n{\n   \"response\": \"{resource}\",\n   \"id\": \"15983\"\n}","type":1,"type_name":"REST"}]}]}
