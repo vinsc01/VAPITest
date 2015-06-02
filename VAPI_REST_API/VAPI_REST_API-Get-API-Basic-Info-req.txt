@@ -1,0 +1,7 @@
+GROUP-NAME:Default Group
+PAIR-NAME:Get API Basic Info
+GET /users/{{username}}/apis/{{apiname}}
+X-VAPI-AuthAuthority: GitHub
+X-VAPI-AccessToken: {{token}}
+Content-Type: application/json
+
