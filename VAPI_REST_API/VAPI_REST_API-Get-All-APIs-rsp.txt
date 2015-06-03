@@ -1,0 +1,49 @@
+200
+
+{
+    "message": "success",
+    "returnCode": 0,
+    "success": true,
+    "totalApis": 3,
+    "apigridInfo": [
+        {
+            "creator": "{username}",
+            "avatar": "https://avatars.githubusercontent.com/u/7148237?v=3",
+            "name": "Spec_Content_API",
+            "status": "failed",
+            "modified": "2015-06-01 16:50:35",
+            "callCount": 0,
+            "uri": "http://vapi.ca.com/api/{username}/Spec_Content_API",
+            "description": "This is a short description.",
+            "iconSet": "ca",
+            "iconColour": "all",
+            "iconName": "example"
+        },
+        {
+            "creator": "{username}",
+            "avatar": "https://avatars.githubusercontent.com/u/7148237?v=3",
+            "name": "SampleApi",
+            "status": "enabled",
+            "modified": "2015-06-02 08:50:46",
+            "callCount": 30,
+            "uri": "http://vapi.ca.com/api/{username}/SampleApi",
+            "description": "This is a short description.",
+            "iconSet": "ca",
+            "iconColour": "all",
+            "iconName": "example"
+        },
+        {
+            "creator": "{username}",
+            "avatar": "https://avatars.githubusercontent.com/u/7148237?v=3",
+            "name": "{apiname2}",
+            "status": "enabled",
+            "modified": "2015-06-03 13:48:35",
+            "callCount": 0,
+            "uri": "http://vapi.ca.com/api/{username}/{apiname2}",
+            "description": "This is a short description.",
+            "iconSet": "ca",
+            "iconColour": "all",
+            "iconName": "example"
+        }
+    ]
+}
