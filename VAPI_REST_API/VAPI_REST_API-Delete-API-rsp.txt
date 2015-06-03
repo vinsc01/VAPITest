@@ -1,0 +1,7 @@
+200
+
+{
+    "message": "API {apiname} deleted from user {username}",
+    "returnCode": 1,
+    "success": true
+}
