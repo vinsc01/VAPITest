@@ -1,0 +1,6 @@
+GROUP-NAME:Default Group
+PAIR-NAME:Get Login Count
+GET /logins?q=(loginDate=2015-01-31)
+X-VAPI-AuthAuthority: GitHub
+X-VAPI-AccessToken: {token}
+
