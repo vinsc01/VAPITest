@@ -1,0 +1,25 @@
+200
+
+{
+    "message": "success",
+    "returnCode": 0,
+    "success": true,
+    "apisummaryInfo": {
+        "id": "bccecdf0-09f7-11e5-91de-290ec28afe9b",
+        "name": "{apiname}",
+        "description": "This is a short description.",
+        "iconSet": "ca",
+        "iconColour": "all",
+        "iconName": "example",
+        "url": "http://vapi.ca.com/api/{username}/{apiname}",
+        "modified": "2015-06-03 13:52:29",
+        "protocol": "HTTP;REST",
+        "status": "enabled",
+        "created": "2015-06-03 13:52:13",
+        "servicename": "AutoGenService-C7867CED09F711E59027001A6B4EA67A",
+        "callCount": 0,
+        "gitHubRepo": "ENC:76696e736330312f56415049546573743a6d79466f6c6465722f666f6c64657233",
+        "ispublic": true,
+        "apiKey": "bccecdf0-09f7-11e5-91de-290ec28afe9b"
+    }
+}
