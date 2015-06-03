@@ -1,0 +1,13 @@
+200
+
+{
+    "message": "success",
+    "returnCode": 0,
+    "success": true,
+    "apistats": {
+        "totalUsers": 4,
+        "totalApis": 4,
+        "totalApiCalls": 274,
+        "version": "1.0.0"
+    }
+}
