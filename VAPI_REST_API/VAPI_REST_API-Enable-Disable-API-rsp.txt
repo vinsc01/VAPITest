@@ -1,0 +1,19 @@
+200
+
+{
+    "message": "OK",
+    "returnCode": 200,
+    "success": true,
+    "api": {
+        "id": "bccecdf0-09f7-11e5-91de-290ec28afe9b",
+        "name": "{apiname}",
+        "description": "This is an example description.",
+        "iconSet": "ca",
+        "iconColour": "all",
+        "iconName": "example",
+        "redeploy": false,
+        "status": "disabled",
+        "uri": "http://vapi.ca.com/api/{username}/{apiname}",
+        "ispublic": "true"
+    }
+}
