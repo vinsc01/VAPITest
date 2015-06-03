@@ -1,0 +1,46 @@
+200
+
+{
+    "message": "success",
+    "returnCode": 0,
+    "success": true,
+    "totalApis": 3,
+    "apigridInfo": [
+        {
+            "creator": "{username}",
+            "name": "Spec_Content_API",
+            "status": "failed",
+            "modified": "2015-06-01 16:50:35",
+            "callCount": 0,
+            "uri": "http://vapi.ca.com/api/{username}/Spec_Content_API",
+            "description": "This is a short description.",
+            "iconSet": "ca",
+            "iconColour": "all",
+            "iconName": "example"
+        },
+        {
+            "creator": "{username}",
+            "name": "SampleApi",
+            "status": "enabled",
+            "modified": "2015-06-02 08:50:46",
+            "callCount": 31,
+            "uri": "http://vapi.ca.com/api/{username}/SampleApi",
+            "description": "This is a short description.",
+            "iconSet": "ca",
+            "iconColour": "all",
+            "iconName": "example"
+        },
+        {
+            "creator": "{username}",
+            "name": "{apiname}",
+            "status": "enabled",
+            "modified": "2015-06-03 13:52:29",
+            "callCount": 0,
+            "uri": "http://vapi.ca.com/api/{username}/{apiname}",
+            "description": "This is a short description.",
+            "iconSet": "ca",
+            "iconColour": "all",
+            "iconName": "example"
+        }
+    ]
+}
