@@ -1,0 +1,19 @@
+200
+
+{
+    "message": "success",
+    "returnCode": 0,
+    "success": true,
+    "methods": [
+        {
+            "name": "Default Group",
+            "pairs": [
+                {
+                    "pairName": "Pair 1",
+                    "id": "5c290649-f3ff-11e4-945b-0d29ebfdda67",
+                    "type": 1
+                }
+            ]
+        }
+    ]
+}
