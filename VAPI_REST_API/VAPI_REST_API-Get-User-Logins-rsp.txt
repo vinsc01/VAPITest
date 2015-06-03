@@ -1,0 +1,86 @@
+200
+
+{
+    "message": "Get Last Logged Users List Success for period of days: 10",
+    "returnCode": 0,
+    "success": true,
+    "lastLoggedUsers": [
+        {
+            "uid": "513015a0-054b-11e5-983a-290ec28afe9b",
+            "name": "Scott Vincent",
+            "id": "{username}",
+            "email": "{username}@ca.com",
+            "source": "github",
+            "avatar": "https://avatars.githubusercontent.com/u/7148237?v=3",
+            "apis": {
+                "{apiId}": {
+                    "id": "{apiId}",
+                    "userId": "513015a0-054b-11e5-983a-290ec28afe9b",
+                    "name": "SampleApi",
+                    "description": "This is a short description.",
+                    "iconSet": "ca",
+                    "iconColour": "all",
+                    "iconName": "example",
+                    "metrics": {},
+                    "apikey": "{apiId}",
+                    "uri": "http://vapi.ca.com/api/{username}/SampleApi",
+                    "status": "enabled",
+                    "protocol": "HTTP;REST",
+                    "modified": "2015-06-02 08:50:46",
+                    "created": "2015-06-02 08:49:00",
+                    "callCount": 31,
+                    "public": "true"
+                },
+                "bccecdf0-09f7-11e5-91de-290ec28afe9b": {
+                    "id": "bccecdf0-09f7-11e5-91de-290ec28afe9b",
+                    "userId": "513015a0-054b-11e5-983a-290ec28afe9b",
+                    "name": "{apiname}",
+                    "description": "This is a short description.",
+                    "iconSet": "ca",
+                    "iconColour": "all",
+                    "iconName": "example",
+                    "metrics": {},
+                    "apikey": "bccecdf0-09f7-11e5-91de-290ec28afe9b",
+                    "uri": "http://vapi.ca.com/api/{username}/{apiname}",
+                    "status": "enabled",
+                    "protocol": "HTTP;REST",
+                    "modified": "2015-06-03 13:52:19",
+                    "created": "2015-06-03 13:52:13",
+                    "callCount": 0,
+                    "gitHubRepo": "ENC:76696e736330312f56415049546573743a6d79466f6c6465722f666f6c64657233",
+                    "public": "true"
+                },
+                "bcdce8c0-0878-11e5-99da-290ec28afe9b": {
+                    "id": "bcdce8c0-0878-11e5-99da-290ec28afe9b",
+                    "userId": "513015a0-054b-11e5-983a-290ec28afe9b",
+                    "name": "Spec_Content_API",
+                    "description": "This is a short description.",
+                    "iconSet": "ca",
+                    "iconColour": "all",
+                    "iconName": "example",
+                    "metrics": {},
+                    "apikey": "bcdce8c0-0878-11e5-99da-290ec28afe9b",
+                    "uri": "http://vapi.ca.com/api/{username}/Spec_Content_API",
+                    "status": "failed",
+                    "protocol": "HTTP;REST",
+                    "modified": "2015-06-01 16:50:35",
+                    "created": "2015-06-01 16:10:36",
+                    "callCount": 0,
+                    "public": "true"
+                }
+            },
+            "creationDate": 1432825674677,
+            "lastLoginDate": 1433337298936
+        },
+        {
+            "uid": "9949d880-061d-11e5-9a54-290ec28afe9b",
+            "id": "{username}-user2",
+            "email": "{username}.user2@gmail.com",
+            "source": "github",
+            "avatar": "https://avatars.githubusercontent.com/u/8833391?v=3",
+            "apis": {},
+            "creationDate": 1432915990024,
+            "lastLoginDate": 1432916003345
+        }
+    ]
+}
