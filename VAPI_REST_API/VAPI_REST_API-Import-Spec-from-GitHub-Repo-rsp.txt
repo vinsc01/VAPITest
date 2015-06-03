@@ -1,0 +1,116 @@
+200
+
+{
+    "success": true,
+    "message": "success",
+    "detailedMessage": null,
+    "returnCode": 0,
+    "doc": "<h1>Bookshop API Version: 1.0.0</h1><p><b>Description:</b>&nbsp;You can get an individual book or search for books by title, author and/or publisher.</p><table><tr><td><b>Real Api Host:</b>&nbsp;&nbsp;</td><td>localhost:8000</td></tr><tr><td><b>Schemes:</b>&nbsp;&nbsp;</td><td>[HTTP]</td></tr></table><h2>Groups (aka paths)</h2><h3>/booksforall.com/v1/bookstore/book</h3><h4>POST</h4><table></table><table><tr><td>&nbsp;</td></tr><tr><td><b>Parameter:</b>&nbsp;&nbsp;</td><td>title</td></tr><tr><td><b>In:</b>&nbsp;&nbsp;</td><td>query</td></tr><tr><td><b>Required:</b>&nbsp;&nbsp;</td><td>yes</td></tr><tr><td><b>Type:</b>&nbsp;&nbsp;</td><td>string</td></tr></table><table><tr><td>&nbsp;</td></tr><tr><td><b>Parameter:</b>&nbsp;&nbsp;</td><td>author</td></tr><tr><td><b>In:</b>&nbsp;&nbsp;</td><td>query</td></tr><tr><td><b>Required:</b>&nbsp;&nbsp;</td><td>yes</td></tr><tr><td><b>Type:</b>&nbsp;&nbsp;</td><td>string</td></tr></table><table><tr><td>&nbsp;</td></tr><tr><td><b>Parameter:</b>&nbsp;&nbsp;</td><td>publisher</td></tr><tr><td><b>In:</b>&nbsp;&nbsp;</td><td>query</td></tr><tr><td><b>Required:</b>&nbsp;&nbsp;</td><td>yes</td></tr><tr><td><b>Type:</b>&nbsp;&nbsp;</td><td>string</td></tr></table><table><tr><td>&nbsp;</td></tr><tr><td><b>Response:</b>&nbsp;&nbsp;</td><td>200</td></tr><tr><td><b>Description:</b>&nbsp;&nbsp;</td><td>Success</td></tr></table><h3>/booksforall.com/v1/bookstore/booksearch</h3><h4>GET</h4><table><tr><td><b>Produces:</b>&nbsp;&nbsp;</td><td>[application/json]</td></tr></table><table><tr><td>&nbsp;</td></tr><tr><td><b>Parameter:</b>&nbsp;&nbsp;</td><td>title</td></tr><tr><td><b>In:</b>&nbsp;&nbsp;</td><td>query</td></tr><tr><td><b>Required:</b>&nbsp;&nbsp;</td><td>no</td></tr><tr><td><b>Type:</b>&nbsp;&nbsp;</td><td>string</td></tr></table><table><tr><td>&nbsp;</td></tr><tr><td><b>Parameter:</b>&nbsp;&nbsp;</td><td>author</td></tr><tr><td><b>In:</b>&nbsp;&nbsp;</td><td>query</td></tr><tr><td><b>Required:</b>&nbsp;&nbsp;</td><td>no</td></tr><tr><td><b>Type:</b>&nbsp;&nbsp;</td><td>string</td></tr></table><table><tr><td>&nbsp;</td></tr><tr><td><b>Parameter:</b>&nbsp;&nbsp;</td><td>publisher</td></tr><tr><td><b>In:</b>&nbsp;&nbsp;</td><td>query</td></tr><tr><td><b>Required:</b>&nbsp;&nbsp;</td><td>no</td></tr><tr><td><b>Type:</b>&nbsp;&nbsp;</td><td>string</td></tr></table><table><tr><td>&nbsp;</td></tr><tr><td><b>Response:</b>&nbsp;&nbsp;</td><td>200</td></tr><tr><td><b>Description:</b>&nbsp;&nbsp;</td><td>Success</td></tr></table><h5>Examples:</h5><table><tr><td><b>Mime Type:</b>&nbsp;&nbsp;</td><td>application/json</td></tr><tr><td><b>Content:</b>&nbsp;&nbsp;</td><td>{\n  \"title\": \"How to Avoid Huge Ships\", \n  \"author\": \"Captain John W. Trimmer\",\n  \"publisher\": \"Cornell Maritime Press\"\n}</td></tr><tr><td>&nbsp;</td></tr></table><h3>/booksforall.com/v1/bookstore/{id}</h3><h4>GET</h4><table><tr><td><b>Produces:</b>&nbsp;&nbsp;</td><td>[application/json]</td></tr></table><table><tr><td>&nbsp;</td></tr><tr><td><b>Parameter:</b>&nbsp;&nbsp;</td><td>id</td></tr><tr><td><b>Description:</b>&nbsp;&nbsp;</td><td>The id of the book.</td></tr><tr><td><b>In:</b>&nbsp;&nbsp;</td><td>path</td></tr><tr><td><b>Required:</b>&nbsp;&nbsp;</td><td>yes</td></tr><tr><td><b>Type:</b>&nbsp;&nbsp;</td><td>string</td></tr></table><table><tr><td>&nbsp;</td></tr><tr><td><b>Response:</b>&nbsp;&nbsp;</td><td>200</td></tr><tr><td><b>Description:</b>&nbsp;&nbsp;</td><td>Success</td></tr></table><h5>Examples:</h5><table><tr><td><b>Mime Type:</b>&nbsp;&nbsp;</td><td>application/json</td></tr><tr><td><b>Content:</b>&nbsp;&nbsp;</td><td>{\n  \"title\": \"How to Avoid Huge Ships\", \n  \"author\": \"Captain John W. Trimmer\",\n  \"publisher\": \"Cornell Maritime Press\"\n}</td></tr><tr><td>&nbsp;</td></tr></table>",
+    "methods": [
+        {
+            "name": "/booksforall.com/v1/bookstore/booksearch",
+            "pairs": [
+                {
+                    "pairName": "pair-1 GET /booksforall.com/v1/bookstore/booksearch",
+                    "name": "/booksforall.com/v1/bookstore/booksearch",
+                    "id": "c1aab371-09f7-11e5-91de-290ec28afe9b",
+                    "request": "GET /booksforall.com/v1/bookstore/booksearch HTTP/1.1\r\n\r\n",
+                    "response": "{\r\n  \"title\": \"How to Avoid Huge Ships\", \r\n  \"author\": \"Captain John W. Trimmer\",\r\n  \"publisher\": \"Cornell Maritime Press\"\r\n}",
+                    "type": 1,
+                    "type_name": "REST"
+                },
+                {
+                    "pairName": "pair-2 GET /booksforall.com/v1/bookstore/booksearch",
+                    "name": "/booksforall.com/v1/bookstore/booksearch",
+                    "id": "c1aab372-09f7-11e5-91de-290ec28afe9b",
+                    "request": "GET /booksforall.com/v1/bookstore/booksearch?title={title} HTTP/1.1\r\n\r\n",
+                    "response": "{\r\n  \"title\": \"How to Avoid Huge Ships\", \r\n  \"author\": \"Captain John W. Trimmer\",\r\n  \"publisher\": \"Cornell Maritime Press\"\r\n}",
+                    "type": 1,
+                    "type_name": "REST"
+                },
+                {
+                    "pairName": "pair-3 GET /booksforall.com/v1/bookstore/booksearch",
+                    "name": "/booksforall.com/v1/bookstore/booksearch",
+                    "id": "c1aab373-09f7-11e5-91de-290ec28afe9b",
+                    "request": "GET /booksforall.com/v1/bookstore/booksearch?author={author} HTTP/1.1\r\n\r\n",
+                    "response": "{\r\n  \"title\": \"How to Avoid Huge Ships\", \r\n  \"author\": \"Captain John W. Trimmer\",\r\n  \"publisher\": \"Cornell Maritime Press\"\r\n}",
+                    "type": 1,
+                    "type_name": "REST"
+                },
+                {
+                    "pairName": "pair-4 GET /booksforall.com/v1/bookstore/booksearch",
+                    "name": "/booksforall.com/v1/bookstore/booksearch",
+                    "id": "c1aab374-09f7-11e5-91de-290ec28afe9b",
+                    "request": "GET /booksforall.com/v1/bookstore/booksearch?title={title}&author={author} HTTP/1.1\r\n\r\n",
+                    "response": "{\r\n  \"title\": \"How to Avoid Huge Ships\", \r\n  \"author\": \"Captain John W. Trimmer\",\r\n  \"publisher\": \"Cornell Maritime Press\"\r\n}",
+                    "type": 1,
+                    "type_name": "REST"
+                },
+                {
+                    "pairName": "pair-5 GET /booksforall.com/v1/bookstore/booksearch",
+                    "name": "/booksforall.com/v1/bookstore/booksearch",
+                    "id": "c1aab375-09f7-11e5-91de-290ec28afe9b",
+                    "request": "GET /booksforall.com/v1/bookstore/booksearch?publisher={publisher} HTTP/1.1\r\n\r\n",
+                    "response": "{\r\n  \"title\": \"How to Avoid Huge Ships\", \r\n  \"author\": \"Captain John W. Trimmer\",\r\n  \"publisher\": \"Cornell Maritime Press\"\r\n}",
+                    "type": 1,
+                    "type_name": "REST"
+                },
+                {
+                    "pairName": "pair-6 GET /booksforall.com/v1/bookstore/booksearch",
+                    "name": "/booksforall.com/v1/bookstore/booksearch",
+                    "id": "c1aab376-09f7-11e5-91de-290ec28afe9b",
+                    "request": "GET /booksforall.com/v1/bookstore/booksearch?title={title}&publisher={publisher} HTTP/1.1\r\n\r\n",
+                    "response": "{\r\n  \"title\": \"How to Avoid Huge Ships\", \r\n  \"author\": \"Captain John W. Trimmer\",\r\n  \"publisher\": \"Cornell Maritime Press\"\r\n}",
+                    "type": 1,
+                    "type_name": "REST"
+                },
+                {
+                    "pairName": "pair-7 GET /booksforall.com/v1/bookstore/booksearch",
+                    "name": "/booksforall.com/v1/bookstore/booksearch",
+                    "id": "c1aab377-09f7-11e5-91de-290ec28afe9b",
+                    "request": "GET /booksforall.com/v1/bookstore/booksearch?author={author}&publisher={publisher} HTTP/1.1\r\n\r\n",
+                    "response": "{\r\n  \"title\": \"How to Avoid Huge Ships\", \r\n  \"author\": \"Captain John W. Trimmer\",\r\n  \"publisher\": \"Cornell Maritime Press\"\r\n}",
+                    "type": 1,
+                    "type_name": "REST"
+                },
+                {
+                    "pairName": "pair-8 GET /booksforall.com/v1/bookstore/booksearch",
+                    "name": "/booksforall.com/v1/bookstore/booksearch",
+                    "id": "c1aab378-09f7-11e5-91de-290ec28afe9b",
+                    "request": "GET /booksforall.com/v1/bookstore/booksearch?title={title}&author={author}&publisher={publisher} HTTP/1.1\r\n\r\n",
+                    "response": "{\r\n  \"title\": \"How to Avoid Huge Ships\", \r\n  \"author\": \"Captain John W. Trimmer\",\r\n  \"publisher\": \"Cornell Maritime Press\"\r\n}",
+                    "type": 1,
+                    "type_name": "REST"
+                }
+            ]
+        },
+        {
+            "name": "/booksforall.com/v1/bookstore/{id}",
+            "pairs": [
+                {
+                    "pairName": "pair-9 GET /booksforall.com/v1/bookstore/{id}",
+                    "name": "/booksforall.com/v1/bookstore/{id}",
+                    "id": "c1aab379-09f7-11e5-91de-290ec28afe9b",
+                    "request": "GET /booksforall.com/v1/bookstore/{id} HTTP/1.1\r\n\r\n",
+                    "response": "{\r\n  \"title\": \"How to Avoid Huge Ships\", \r\n  \"author\": \"Captain John W. Trimmer\",\r\n  \"publisher\": \"Cornell Maritime Press\"\r\n}",
+                    "type": 1,
+                    "type_name": "REST"
+                }
+            ]
+        },
+        {
+            "name": "/booksforall.com/v1/bookstore/book",
+            "pairs": [
+                {
+                    "pairName": "pair-0 POST /booksforall.com/v1/bookstore/book",
+                    "name": "/booksforall.com/v1/bookstore/book",
+                    "id": "c1aab370-09f7-11e5-91de-290ec28afe9b",
+                    "request": "POST /booksforall.com/v1/bookstore/book?title={title}&author={author}&publisher={publisher} HTTP/1.1\r\n\r\n",
+                    "response": "Success",
+                    "type": 1,
+                    "type_name": "REST"
+                }
+            ]
+        }
+    ]
+}
