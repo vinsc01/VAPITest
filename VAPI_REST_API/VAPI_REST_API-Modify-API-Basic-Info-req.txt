@@ -1,0 +1,16 @@
+GROUP-NAME:Default Group
+PAIR-NAME:Modify API Basic Info
+PUT /users/{username}/apis/{apiname}
+X-VAPI-AuthAuthority: GitHub
+X-VAPI-AccessToken: {token}
+Content-Type: application/json
+
+{
+    "name": "{apiname}",
+    "description": "This is an example description.",
+    "iconSet":"ca",
+    "iconColour": "all",
+    "iconName": "example",
+    "status": "enabled",
+    "redeploy": false
+}
