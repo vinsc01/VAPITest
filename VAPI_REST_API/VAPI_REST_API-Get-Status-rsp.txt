@@ -1,7 +1,0 @@
-200
-
-{
-    "message": "Ok",
-    "returnCode": 0,
-    "success": true
-}

@@ -1,7 +1,0 @@
-200
-
-{
-    "message": "API Api1 deleted from user vinsc01",
-    "returnCode": 1,
-    "success": true
-}

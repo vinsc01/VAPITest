@@ -1,5 +1,0 @@
-200
-
-{
-    "message":  "Hello world"
-}

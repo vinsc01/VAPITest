@@ -1,8 +1,0 @@
-200
-
-{
-    "message": "success",
-    "returnCode": 0,
-    "success": true,
-    "docText": "<p>This is some example documentation.</p>"
-}

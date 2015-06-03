@@ -1,6 +1,0 @@
-GROUP-NAME:Default Group
-PAIR-NAME:Get Articles
-GET /articles
-X-VAPI-AuthAuthority: GitHub
-X-VAPI-AccessToken: {{token}}
-

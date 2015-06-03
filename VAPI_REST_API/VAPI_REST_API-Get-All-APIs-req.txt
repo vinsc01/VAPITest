@@ -1,5 +1,0 @@
-GROUP-NAME:Default Group
-PAIR-NAME:Get All APIs
-GET /public/apis
-Content-Type: application/json
-

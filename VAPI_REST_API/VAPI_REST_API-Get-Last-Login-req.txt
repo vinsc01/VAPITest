@@ -1,6 +1,0 @@
-GROUP-NAME:Default Group
-PAIR-NAME:Get Last Login
-GET /users/{{username}}/logins
-X-VAPI-AuthAuthority: GitHub
-X-VAPI-AccessToken: {{token}}
-

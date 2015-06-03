@@ -1,5 +1,0 @@
-GROUP-NAME:Default Group
-PAIR-NAME:Get Status
-GET /public/status
-Content-Type: application/json
-

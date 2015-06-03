@@ -1,8 +1,0 @@
-200
-
-{
-    "message": "User vinsc01 does not have API MyApi",
-    "returnCode": -1,
-    "success": false,
-    "methods": []
-}

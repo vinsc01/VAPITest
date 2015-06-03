@@ -1,7 +1,0 @@
-GROUP-NAME:Default Group
-PAIR-NAME:Get Individual API Pair
-GET /users/{{username}}/apis/{{apiname3}}/pairs/{{pairId}}
-X-VAPI-AuthAuthority: GitHub
-X-VAPI-AccessToken: {{token}}
-Content-Type: application/json
-

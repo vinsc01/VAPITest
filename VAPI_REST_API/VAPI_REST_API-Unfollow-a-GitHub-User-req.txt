@@ -1,7 +1,0 @@
-GROUP-NAME:Default Group
-PAIR-NAME:Unfollow a GitHub User
-DELETE /githubUsers/{{username}}/followedUsers/{{user}}
-X-VAPI-AuthAuthority: GitHub
-X-VAPI-AccessToken: {{token}}
-Content-Type: application/json
-

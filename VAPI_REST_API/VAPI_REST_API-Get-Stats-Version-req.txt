@@ -1,5 +1,0 @@
-GROUP-NAME:Default Group
-PAIR-NAME:Get Stats + Version
-GET /public/stats
-Content-Type: application/json
-

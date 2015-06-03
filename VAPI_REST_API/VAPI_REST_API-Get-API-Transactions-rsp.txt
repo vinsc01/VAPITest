@@ -1,8 +1,0 @@
-200
-
-{
-    "message": "OK",
-    "returnCode": 0,
-    "success": true,
-    "transactions": []
-}

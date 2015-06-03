@@ -1,7 +1,0 @@
-GROUP-NAME:Default Group
-PAIR-NAME:Get API Pair Names
-GET /users/{{username}}/apis/{{apiname}}/pairs?fields=pairName,id
-X-VAPI-AuthAuthority: GitHub
-X-VAPI-AccessToken: {{token}}
-Content-Type: application/json
-

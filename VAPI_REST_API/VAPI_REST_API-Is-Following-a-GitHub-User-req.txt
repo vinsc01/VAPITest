@@ -1,7 +1,0 @@
-GROUP-NAME:Default Group
-PAIR-NAME:Is Following a GitHub User
-GET /githubUsers/{{username}}/followedUsers/{{user}}
-X-VAPI-AuthAuthority: GitHub
-X-VAPI-AccessToken: {{token}}
-Content-Type: application/json
-
