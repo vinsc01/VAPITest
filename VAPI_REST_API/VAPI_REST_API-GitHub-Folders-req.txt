@@ -1,0 +1,6 @@
+GROUP-NAME:Default Group
+PAIR-NAME:GitHub Folders
+GET /githubUsers/{username}/repos/{repoName}/folders
+X-VAPI-AuthAuthority: GitHub
+X-VAPI-AccessToken: {token}
+
