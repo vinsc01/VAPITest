@@ -1,0 +1,7 @@
+GROUP-NAME:Default Group
+PAIR-NAME:Follow a GitHub User
+POST /githubUsers/{username}/followedUsers/{user}
+X-VAPI-AuthAuthority: GitHub
+X-VAPI-AccessToken: {token}
+Content-Type: application/json
+
