@@ -1,0 +1,8 @@
+200
+
+{
+    "message": "User {username} does not have API {apiname3}",
+    "returnCode": -1,
+    "success": false,
+    "methods": []
+}
